@@ -1,0 +1,5 @@
+xgb + elastic
+Stacked Model MAE: 16203.969778968436
+
+Best Stacking Combination: ('XGBoost', 'RandomForest', 'LightGBM') -> MAE: 14978.521266336693
+Meta-learner CV MAE: 4508.476988022323

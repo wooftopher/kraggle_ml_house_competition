@@ -1,0 +1,16 @@
+# # Convert transformed data to NumPy arrays
+# X_train_np = X_train_transformed.to_numpy()
+# X_valid_np = X_valid_transformed.to_numpy()
+# y_train_np = y_train.to_numpy()
+# y_valid_np = y_valid.to_numpy()
+
+# # Create DeviceQuantileDMatrix for GPU training
+# dtrain = xgb.DeviceQuantileDMatrix(X_train_np, label=y_train_np)
+# dvalid = xgb.DeviceQuantileDMatrix(X_valid_np, label=y_valid_np)
+
+# # Apply preprocessing to the entire dataset
+# X_transformed, _ = transform_data(preprocessor, X, X)
+
+# # Convert transformed data to NumPy arrays
+# X_np = X_transformed.to_numpy()
+# y_np = y.to_numpy()

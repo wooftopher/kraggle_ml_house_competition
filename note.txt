@@ -1,0 +1,32 @@
+Gradient Boosting Machines (GBM):
+
+    Adds robustness to complex patterns and interactions in the data.
+
+    Complements XGBoost and LightGBM with a different boosting approach.
+
+Support Vector Regression (SVR):
+
+    Effective for capturing non-linear relationships.
+
+    Adds diversity to your stacked model.
+
+Neural Networks (MLPRegressor or simple Keras model): 
+        MAYBY ONE DAY XD TOO MUCH ENV I NEED A NEW CLEAN WITH CUDA
+
+    Can model highly non-linear relationships.
+
+    Adds a different learning paradigm to the mix.
+
+K-Nearest Neighbors (KNN):
+
+    Captures local patterns in the data.
+
+    Adds a distance-based perspective.
+
+Bayesian Ridge Regression:
+
+    Provides probabilistic predictions and handles uncertainty well.
+
+    Adds a Bayesian approach to your ensemble.
+
+pip uninstall numpy tensorflow cupy-cuda112
