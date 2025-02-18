@@ -3,3 +3,5 @@ catboost_info/
 input/
 myenv/*
 !myenv/requirements.txt
+*.csv
+

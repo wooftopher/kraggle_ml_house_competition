@@ -3,3 +3,33 @@ Stacked Model MAE: 16203.969778968436
 
 Best Stacking Combination: ('XGBoost', 'RandomForest', 'LightGBM') -> MAE: 14978.521266336693
 Meta-learner CV MAE: 4508.476988022323
+
+1. ('XGBoost', 'RandomForest') -> MAE: 14272.134324368944
+Meta-learner CV MAE: 1817.7071498190362
+
+-------------------------------------------------------------------------------------------
+Best MAE: 14988.934183792782, Best round: 446
+
+    'max_depth': 5,
+    'eta': 0.03,
+    'subsample': 0.6,
+    'colsample_bytree': 0.5,
+
+    XGBoost Model - CV MAE: 15035.323160361299
+    Best number of boosting rounds: 677
+    1. ('XGBoost', 'LightGBM', 'CatBoost', 'GBM', 'SVR') -> MAE: 14431.61472859229
+
+
+Best hyperparameters:'max_depth': 5, 'eta': 0.04, 'subsample': 0.7, 'colsample_bytree': 0.4,
+Best MAE: 14364.847723137842, Best round: 466
+
+Best hyperparameters: {'max_depth': 6, 'eta': 0.05, 'subsample': 0.75, 'colsample_bytree': 0.45}
+Best MAE: 14311.837021083047, Best round: 601
+
+1. ('XGBoost', 'RandomForest') -> MAE: 14272.134324368944
+
+-ai monster personality, combo personality, 
+-online multiplayer
+-unruneal
+~environ 60 monster
+

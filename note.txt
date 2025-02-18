@@ -30,3 +30,11 @@ Bayesian Ridge Regression:
     Adds a Bayesian approach to your ensemble.
 
 pip uninstall numpy tensorflow cupy-cuda112
+
+XGBoost
+RandomForest
+LightGBM
+ElasticNet
+CatBoost
+Gradient Boosting Machines
+Support Vector Regression (SVR):
